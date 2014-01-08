@@ -1,3 +1,7 @@
+### logical-matrix
+
+_Display 0-1 (binary) matrix on browsers interactively based on ProcessingJS and jQuery._
+
 ### Getting Started
 
 1. Import
@@ -8,7 +12,8 @@
 
 2. Initial with a div container
 
-	*.html*
+	*.html (the canvas size is set to be equal to the div container size)*
+	
 	`<div id="sketch" style="height:250px;width:250px;"></div>`
 
 	*.js*
@@ -29,6 +34,5 @@
 		p.update()
 
 3. Done
-   It is ready to display and manipulate.
-   
-   [More Usages and examples..](#)
+
+   It is ready to display and manipulate. [Find more Usages and examples..](#)
