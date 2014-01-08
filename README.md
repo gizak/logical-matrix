@@ -2,6 +2,8 @@
 
 _Display 0-1 (binary) matrix on browsers interactively based on ProcessingJS and jQuery._
 
+<hr>
+
 ### Getting Started
 
 1. Import
