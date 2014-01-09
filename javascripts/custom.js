@@ -49,5 +49,6 @@ $(function(){
     ]
 
 	p2.loadMat(mat2)
+	dump(p2.getMat())
 	p2.update()
 })
