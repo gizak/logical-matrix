@@ -41,6 +41,8 @@ function LogicMatrix(id) {
 				this.rect(j*that.rw,i*that.rh,that.rw,that.rh)
 			}
 		}
+		this.line(0,this.height-1,this.width-1,this.height-1)
+		this.line(this.width-1,this.height-1,this.width-1,0)
 	}
 
 	this.pjs.mouseClicked = function() {
