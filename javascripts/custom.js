@@ -33,8 +33,7 @@ $(function(){
 	
 	var p2 = new LogicMatrix('sketch2')
 
-	p2.interactive = true
-	
+	p2.interactive = true	
 	p2.mouseClickedCallback = function(){
 		dump(p2.getMat())
 	}
