@@ -32,6 +32,13 @@ $(function(){
 	}
 	
 	var p2 = new LogicMatrix('sketch2')
+
+	p2.interactive = true
+	
+	p2.mouseClickedCallback = function(){
+		dump(p2.getMat())
+	}
+	
 	var mat2 = [
 		[0,0,0,1,1,0,0],
 		[0,0,1,1,1,0,0],
@@ -41,7 +48,7 @@ $(function(){
 		[0,0,0,1,1,0,0],
 		[0,0,1,1,1,1,0]
     ]
-	p2.interactive = true
+
 	p2.loadMat(mat2)
 	p2.update()
 })
