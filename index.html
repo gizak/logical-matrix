@@ -1,36 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>logical-matrix by Gizak</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="logical-matrix : Display 0-1 matrix on browsers interactively based on ProcessingJS and jQuery" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>logical-matrix</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>logical-matrix</h1>
-        <p>Display 0-1 matrix on browsers interactively based on ProcessingJS and jQuery</p>
-        <p class="view"><a href="https://github.com/Gizak/logical-matrix">View the Project on GitHub <small>Gizak/logical-matrix</small></a></p>
-        <ul>
-          <li><a href="https://github.com/Gizak/logical-matrix/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Gizak/logical-matrix/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Gizak/logical-matrix">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Gizak/logical-matrix">View on GitHub</a>
+
+          <h1 id="project_title">logical-matrix</h1>
+          <h2 id="project_tagline">Display 0-1 matrix on browsers interactively based on ProcessingJS and jQuery</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Gizak/logical-matrix/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Gizak/logical-matrix/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h3>
 <a name="logical-matrix" class="anchor" href="#logical-matrix"><span class="octicon octicon-link"></span></a>logical-matrix</h3>
 
-<p><em>Display 0-1 (binary) matrix on browsers interactively based on ProcessingJS and jQuery.</em></p>
+<p><em>logical-matrix is a JavaScript library to display 0-1 (binary) matrix on browsers interactively based on ProcessingJS and jQuery.</em></p>
 
 <h3>
 <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h3>
@@ -47,11 +51,11 @@
 <li>
 <p>Initial with a div container</p>
 
-<p><em>.html (the canvas size is set to be equal to the div container size)</em></p>
+<p><strong>html file snapshot</strong> <em>(the canvas size is set to be equal to the div container size)</em></p>
 
 <p><code>&lt;div id="sketch" style="height:250px;width:250px;"&gt;&lt;/div&gt;</code></p>
 
-<p><em>.js</em></p>
+<p><strong>js file snapshot</strong> <em>(run after document is ready)</em></p>
 
 <pre><code>var p = new LogicMatrix('sketch')
 
@@ -78,14 +82,16 @@ p.update()
 <a name="demos" class="anchor" href="#demos"><span class="octicon octicon-link"></span></a>Demos</h3>
       </section>
     </div>
-    <footer>
-      <p>Project maintained by <a href="https://github.com/Gizak">Gizak</a></p>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
 
-	<script type="text/javascript" src="https://raw2.github.com/Gizak/logical-matrix/master/jquery.min.js"></script>
-	<script type="text/javascript" src="https://raw2.github.com/Gizak/logical-matrix/master/pjs-1.4.1.min.js"></script>
-	<script type="text/javascript" src="https://raw2.github.com/Gizak/logical-matrix/master/logical-matrix.js"></script>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">logical-matrix maintained by <a href="https://github.com/Gizak">Gizak</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
