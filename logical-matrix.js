@@ -13,6 +13,7 @@ function LogicMatrix(id) {
 	this.rh = 0
 	this.rw = 0
 	this.cid = id
+	this.mouseClickedCallback = function(i,j){}
 
 	// append a canvas to the container
 	var c = $('<canvas id="lm-canvas-'+id+'">')
@@ -51,6 +52,8 @@ function LogicMatrix(id) {
 
 		this.ct.mat[pi][pj] = Math.round(Math.abs(1-this.ct.mat[pi][pj]))
 		this.redraw()
+
+		this.ct.mouseClickedCallback(pi,pj)
 	}
 	/**********END**********/
 
